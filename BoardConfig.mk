@@ -121,7 +121,9 @@ KERNEL_LTO := full
 TARGET_KERNEL_CONFIG := libra_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/libra
 TARGET_KERNEL_OPTIONAL_LD := true
-TARGET_KERNEL_CLANG_VERSION := r416183b
+#TARGET_KERNEL_CLANG_VERSION := r416183b
+TARGET_KERNEL_ADDITIONAL_FLAGS := \
+    HOSTCFLAGS="-fuse-ld=lld -Wno-unused-command-line-argument"
 
 # Keymaster
 TARGET_KEYMASTER_WAIT_FOR_QSEE := true
