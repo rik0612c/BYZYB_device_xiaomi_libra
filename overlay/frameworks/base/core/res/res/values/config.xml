@@ -119,7 +119,6 @@
     <string-array translatable="false" name="config_defaultPinnerServiceFiles">
         <item>"/apex/com.android.art/javalib/core-libart.jar"</item>
         <item>"/apex/com.android.art/javalib/core-oj.jar"</item>
-        <item>"/apex/com.android.media/javalib/updatable-media.jar"</item>
         <item>"/system/framework/arm64/boot-framework.art"</item>
         <item>"/system/framework/arm64/boot-framework.oat"</item>
         <item>"/system/framework/boot-framework.vdex"</item>
@@ -130,8 +129,6 @@
         <item>"/system/framework/services.jar.prof"</item>
         <item>"/system/framework/services.jar"</item>
         <item>"/system_ext/priv-app/SystemUI/SystemUI.apk"</item>
-        <item>"/data/dalvik-cache/arm64/system_ext@priv-app@SystemUI@SystemUI.apk@classes.dex"</item>
-        <item>"/data/dalvik-cache/arm64/system_ext@priv-app@SystemUI@SystemUI.apk@classes.vdex"</item>
         <item>"/system/bin/surfaceflinger"</item>
     </string-array>
     <!-- Should the pinner service pin the Home application? -->
