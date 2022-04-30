@@ -237,9 +237,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/init.target.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.target.rc \
     $(LOCAL_PATH)/rootdir/ueventd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/ueventd.rc
 
-# RenderScript
-PRODUCT_PACKAGES += android.hardware.renderscript@1.0-impl
-
 # RIL
 PRODUCT_PACKAGES += \
     librmnetctl \
