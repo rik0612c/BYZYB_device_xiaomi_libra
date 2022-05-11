@@ -17,7 +17,8 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     pm.dexopt.inactive=everything \
     pm.dexopt.install=everything \
     pm.dexopt.shared=everything \
-    ro.sys.fw.dex2oat_thread_count=6
+    ro.sys.fw.dex2oat_thread_count=6 \
+    dalvik.vm.systemuicompilerfilter=speed
 
 # Audio
 PRODUCT_PROPERTY_OVERRIDES += \
