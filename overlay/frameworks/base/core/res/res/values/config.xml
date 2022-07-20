@@ -109,7 +109,6 @@
     <bool name="config_useDevInputEventForAudioJack">true</bool>
     <!-- Flag indicating if the speed up audio on mt call code should be executed -->
     <bool name="config_speed_up_audio_on_mt_calls">true</bool>
-    <!-- Config determines whether to update phone object when voice registration state changes. Voice radio tech change will always trigger an update of phone object irrespective of this config -->
     <bool name="config_switch_phone_on_voice_reg_state_change">false</bool>
     <!-- Disable Manual Network Selection in Global Mode -->
     <string translatable="false" name="prohibit_manual_network_selection_in_gobal_mode">true</string>
