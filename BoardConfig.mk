@@ -69,22 +69,6 @@ TARGET_HAS_LEGACY_CAMERA_HAL1 := true
 TARGET_PROCESS_SDK_VERSION_OVERRIDE := /system/vendor/bin/mm-qcamera-daemon=22
 USE_DEVICE_SPECIFIC_CAMERA := true
 
-# Dexpreopt
-# All apps are pre-compiled with "everything" filter in this rom, which conflicts with the build rules and needs a patch to work.
-# Please refer to the part "diff --git a/core/product.mk b/core/product.mk" in "repo_18.diff" to resolve build errors.
-# The "everything" filter provides bettter performance, but also make app installation longer than defualt values.
-# If you got trouble with "everything" filter, try using the following one line instead:
-# WITH_DEXPREOPT_DEBUG_INFO := false
-LOCAL_DEX_PREOPT := true
-PRODUCT_DEX_PREOPT_BOOT_FLAGS := --compiler-filter=everything
-PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := everything
-PRODUCT_DEX_PREOPT_DEFAULT_FLAGS := --compiler-filter=everything
-PRODUCT_OTHER_JAVA_DEBUG_INFO := false
-PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := everything
-PRODUCT_SYSTEM_SERVER_DEBUG_INFO := false
-USE_DEX2OAT_DEBUG := false
-WITH_DEXPREOPT_DEBUG_INFO := false
-
 # Display
 TARGET_SCREEN_DENSITY := 480
 
