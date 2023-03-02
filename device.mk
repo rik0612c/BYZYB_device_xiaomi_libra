@@ -285,7 +285,7 @@ PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service \
     hostapd \
     ipacm \
-    IPACM_cfg.xml
+    IPACM_cfg.xml \
     libqsap_sdk \
     libwpa_client \
     readmac \
