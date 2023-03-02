@@ -120,6 +120,7 @@ TARGET_KERNEL_CLANG_COMPILE := true
 KERNEL_LTO := full
 TARGET_KERNEL_CONFIG := libra_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/libra
+TARGET_KERNEL_OPTIONAL_LD := true
 
 # Keymaster
 TARGET_KEYMASTER_WAIT_FOR_QSEE := true
