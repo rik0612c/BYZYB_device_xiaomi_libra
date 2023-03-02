@@ -54,8 +54,7 @@ PRODUCT_PACKAGES += \
 # Bluetooth
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0-impl \
-    bdaddr_xiaomi \
-    libbt-vendor
+    bdaddr_xiaomi
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1920
