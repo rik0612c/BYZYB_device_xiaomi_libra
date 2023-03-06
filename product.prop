@@ -1,0 +1,6 @@
+# Charger
+ro.charger.enable_suspend=true
+
+# Special persist properties
+persist.sys.cpu_overclock=false
+persist.vendor.edge_touch_mode=false
