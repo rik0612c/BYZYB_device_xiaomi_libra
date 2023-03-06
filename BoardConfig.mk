@@ -117,7 +117,7 @@ BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom androidboot.selinux=permissive
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 BOARD_KERNEL_PAGESIZE := 4096
 TARGET_KERNEL_CLANG_COMPILE := true
-KERNEL_LTO := full
+KERNEL_LTO := none
 TARGET_KERNEL_CONFIG := libra_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/libra
 TARGET_KERNEL_OPTIONAL_LD := true
