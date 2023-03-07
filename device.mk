@@ -53,7 +53,9 @@ PRODUCT_PACKAGES += \
 
 # Bluetooth
 PRODUCT_PACKAGES += \
-    android.hardware.bluetooth@1.0-impl
+    audio.bluetooth.default \
+    android.hardware.bluetooth@1.0-impl \
+    android.hardware.bluetooth.audio-impl
 
 PRODUCT_PACKAGES += \
     libbt-vendor \
