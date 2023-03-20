@@ -51,6 +51,9 @@ ro.qualcomm.bluetooth.opp=true
 ro.qualcomm.bluetooth.pbap=true
 vendor.qcom.bluetooth.soc=rome
 
+## QPR2 Bluetooth Fix by 0xCAFEBABE
+bluetooth.le.disable_apcf_extended_features=1
+
 # Button jack
 persist.sys.button_jack_profile=volume
 persist.sys.button_jack_switch=0
